@@ -101,3 +101,25 @@ exercises.c:21:15: note: expected ‘int *’ but argument is of type ‘int’
 cc1: all warnings being treated as errors
 Compilation failed
 3d4c483
+Fri 12 Aug 2022 01:19:42 PM UTC: 
+ exercises.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:40:7: error: ‘n’ redeclared as different kind of symbol
+   40 |   int n;
+      |       ^
+exercises.c:39:32: note: previous definition of ‘n’ was here
+   39 | void sumaNultimos(int a[], int n, int m, int * suma) {
+      |                            ~~~~^
+exercises.c:41:17: error: passing argument 1 of ‘sumaN’ makes pointer from integer without a cast [-Werror=int-conversion]
+   41 |   *suma = sumaN(n,m);
+      |                 ^
+      |                 |
+      |                 int
+exercises.c:21:15: note: expected ‘int *’ but argument is of type ‘int’
+   21 | int sumaN(int a[], int N) {
+      |           ~~~~^~~
+cc1: all warnings being treated as errors
+Compilation failed
+636c94c
