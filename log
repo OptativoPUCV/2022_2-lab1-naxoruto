@@ -178,3 +178,14 @@ exercises.c:41:8: error: unused variable ‘b’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 170353e
+Fri 12 Aug 2022 01:23:56 PM UTC: 
+ exercises.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:40:7: error: unused variable ‘b’ [-Werror=unused-variable]
+   40 |   int*b=(a+m);
+      |       ^
+cc1: all warnings being treated as errors
+Compilation failed
+2a75878
