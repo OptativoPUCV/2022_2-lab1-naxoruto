@@ -123,3 +123,22 @@ exercises.c:21:15: note: expected ‘int *’ but argument is of type ‘int’
 cc1: all warnings being treated as errors
 Compilation failed
 636c94c
+Fri 12 Aug 2022 01:19:59 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:41:17: error: passing argument 1 of ‘sumaN’ makes pointer from integer without a cast [-Werror=int-conversion]
+   41 |   *suma = sumaN(b,m);
+      |                 ^
+      |                 |
+      |                 int
+exercises.c:21:15: note: expected ‘int *’ but argument is of type ‘int’
+   21 | int sumaN(int a[], int N) {
+      |           ~~~~^~~
+exercises.c:41:11: error: ‘b’ is used uninitialized in this function [-Werror=uninitialized]
+   41 |   *suma = sumaN(b,m);
+      |           ^~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+0207bfd
