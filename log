@@ -164,3 +164,17 @@ Fri 12 Aug 2022 01:20:27 PM UTC:
  tests:  1|6
 total_score: 10/70
 0e675c9
+Fri 12 Aug 2022 01:21:39 PM UTC: 
+ exercises.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:41:10: error: initialization of ‘int *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+   41 |   int* b=(n+m);
+      |          ^
+exercises.c:41:8: error: unused variable ‘b’ [-Werror=unused-variable]
+   41 |   int* b=(n+m);
+      |        ^
+cc1: all warnings being treated as errors
+Compilation failed
+170353e
