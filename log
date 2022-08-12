@@ -189,3 +189,9 @@ exercises.c:40:7: error: unused variable ‘b’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 2a75878
+Fri 12 Aug 2022 01:24:06 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|6
+total_score: 10/70
+9370e9e
