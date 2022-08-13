@@ -354,3 +354,9 @@ Sat 13 Aug 2022 11:55:29 PM UTC:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 5667e0a
+Sat 13 Aug 2022 11:55:45 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|3
+total_score: 40/70
+c06ae9a
