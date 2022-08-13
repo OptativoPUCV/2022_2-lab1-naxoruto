@@ -301,3 +301,13 @@ exercises.c:86:1: error: control reaches end of non-void function [-Werror=retur
 cc1: all warnings being treated as errors
 Compilation failed
 acdacfd
+Sat 13 Aug 2022 11:54:13 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:82:38: error: expected expression before ‘)’ token
+   82 |   v->datos = (Vector*)calloc(n, (int));
+      |                                      ^
+Compilation failed
+12f147c
