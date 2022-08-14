@@ -406,3 +406,14 @@ Sun 14 Aug 2022 12:11:26 AM UTC:
  tests:  7|1
 total_score: 60/70
 d0ff25a
+Sun 14 Aug 2022 12:14:55 AM UTC: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV2’:
+exercises.c:124:12: error: ‘i’ undeclared (first use in this function)
+  124 |   c->datos[i]= (a1 + b1);
+      |            ^
+exercises.c:124:12: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+820161e
